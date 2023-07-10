@@ -19,9 +19,7 @@ const router = createBrowserRouter([
 root.render(
   // <React.StrictMode>
   <BrowserRouter basename="chess-react-ts">
-    <RouterProvider router={router} />
-
-    {/* <App></App> */}
+    <App></App>
   </BrowserRouter>
   // </React.StrictMode>
 );
