@@ -5,6 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider,
   BrowserRouter,
+  HashRouter,
 } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
@@ -18,8 +19,8 @@ const router = createBrowserRouter([
 ]);
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="chess-react-ts">
+    <HashRouter basename="chess-react-ts">
       <App></App>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
